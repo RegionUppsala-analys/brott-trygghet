@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv" xml:lang="sv"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Övriga brott</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "Inget resultat",
+    "search-matching-documents-text": "matchande dokument",
+    "search-copy-link-title": "Kopiera länk för att söka",
+    "search-hide-matches-text": "Göm ytterligare resultat",
+    "search-more-match-text": "annat resultat i detta dokument",
+    "search-more-matches-text": "fler resultat i detta dokument",
+    "search-clear-button-title": "Rensa",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Avbryt",
+    "search-submit-button-title": "Verkställ",
+    "search-label": "Sök"
+  }
+}</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/plotly-binding-4.11.0/plotly.js"></script>
+
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./Figurer/Region Uppsala_Logo_CMYK_Vit.png" alt="Region Uppsala" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Sök"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Skifta navigering" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Start</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./vald_indikator.html"> 
+<span class="menu-text">Våldsbrott</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./raddningstjanst.html"> 
+<span class="menu-text">Räddningstjänst</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./trygghet.html"> 
+<span class="menu-text">Trygghet</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./skade_stold_trafik.html" aria-current="page"> 
+<span class="menu-text">Övriga brott</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Innehåll</h2>
+   
+  <ul>
+  <li><a href="#inledning" id="toc-inledning" class="nav-link active" data-scroll-target="#inledning">Inledning</a></li>
+  <li><a href="#indikatorer" id="toc-indikatorer" class="nav-link" data-scroll-target="#indikatorer">Indikatorer</a>
+  <ul class="collapse">
+  <li><a href="#anmälda-skadegörelsebrott" id="toc-anmälda-skadegörelsebrott" class="nav-link" data-scroll-target="#anmälda-skadegörelsebrott">Anmälda skadegörelsebrott</a></li>
+  <li><a href="#anmälda-personrån-mot-unga" id="toc-anmälda-personrån-mot-unga" class="nav-link" data-scroll-target="#anmälda-personrån-mot-unga">Anmälda personrån mot unga</a></li>
+  <li><a href="#anmälda-stöldbrott" id="toc-anmälda-stöldbrott" class="nav-link" data-scroll-target="#anmälda-stöldbrott">Anmälda stöldbrott</a></li>
+  <li><a href="#anmälda-bilbrott" id="toc-anmälda-bilbrott" class="nav-link" data-scroll-target="#anmälda-bilbrott">Anmälda bilbrott</a></li>
+  <li><a href="#anmälda-bostadsinbrott" id="toc-anmälda-bostadsinbrott" class="nav-link" data-scroll-target="#anmälda-bostadsinbrott">Anmälda bostadsinbrott</a></li>
+  <li><a href="#anmälda-trafikbrott" id="toc-anmälda-trafikbrott" class="nav-link" data-scroll-target="#anmälda-trafikbrott">Anmälda trafikbrott</a></li>
+  <li><a href="#anmälda-narkotikabrott" id="toc-anmälda-narkotikabrott" class="nav-link" data-scroll-target="#anmälda-narkotikabrott">Anmälda narkotikabrott</a></li>
+  </ul></li>
+  <li><a href="#avvikelse-från-msb-beräkningar" id="toc-avvikelse-från-msb-beräkningar" class="nav-link" data-scroll-target="#avvikelse-från-msb-beräkningar">Avvikelse från MSB-beräkningar</a>
+  <ul class="collapse">
+  <li><a href="#stöld-och-tillgreppsbrott" id="toc-stöld-och-tillgreppsbrott" class="nav-link" data-scroll-target="#stöld-och-tillgreppsbrott">Stöld och tillgreppsbrott</a></li>
+  </ul></li>
+  <li><a href="#ntu" id="toc-ntu" class="nav-link" data-scroll-target="#ntu">NTU</a>
+  <ul class="collapse">
+  <li><a href="#problem-i-bostadsområdet" id="toc-problem-i-bostadsområdet" class="nav-link" data-scroll-target="#problem-i-bostadsområdet">Problem i bostadsområdet</a></li>
+  </ul></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Källor</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Övriga brott</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="inledning" class="level1">
+<h1>Inledning</h1>
+<p>Denna rapport ger en samlad bild av brottsligheten i kommunerna med fokus på skadegörelse-, stöld- och tillgreppsbrott, bilrelaterade brott, bostadsinbrott, trafikbrott och narkotikabrott. Syftet är att beskriva utvecklingen över tid, visa skillnader mellan kommuner samt sätta resultaten i relation till länet och riket, både i absoluta tal och per 100 000 invånare.</p>
+<p>Alla interaktiva grafer kan laddas ned genom att trycka på <img src="Figurer/download_graph.png" class="img-fluid" width="120" alt="Nerladdningsknapp">. Då sparas just den bild som visas, med exempelvis den valda regionen. Genom att dubbelklicka på kommunnamn i grafens legend så zoomas den kommunen in för en mer detaljerad vy (flera kan väljas samtidigt).</p>
+</section>
+<section id="indikatorer" class="level1">
+<h1>Indikatorer</h1>
+<p>Indikatorer för kommuners lägesbild. Här hittar du en sammanställning av statistik på kommunnivå utifrån Nationella trygghetsundersökningen (NTU) och statistiken över anmälda brott. Följande avsnitt visar indikatorerna för kommunerna, länet och hela riket, både som absoluta tal och per 100 000 invånare, för att ge en tydlig bild av omfattning och jämförbarhet.</p>
+<p>Statistiken bygger på polisanmälningar.</p>
+<p>Data är hämtat från <span class="citation" data-cites="bra">Brottsförebyggande rådet (Brå) (<a href="#ref-bra" role="doc-biblioref">2025a</a>)</span>.</p>
+<section id="anmälda-skadegörelsebrott" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-skadegörelsebrott">Anmälda skadegörelsebrott</h2>
+<p>I detta avsnitt redovisas anmälda skadegörelsebrott enligt brottsbalkens kapitel 12. Skadegörelse omfattar bland annat skador genom brand, klotter, skador på motorfordon samt skador riktade mot offentlig egendom.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<img src="Figurer/skadebrott_Enköping.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Enköping.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<img src="Figurer/skadebrott_Heby.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Heby.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<img src="Figurer/skadebrott_Håbo.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Håbo.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<img src="Figurer/skadebrott_Knivsta.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Knivsta.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<img src="Figurer/skadebrott_Tierp.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Tierp.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<img src="Figurer/skadebrott_Uppsala.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Uppsala.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<img src="Figurer/skadebrott_Älvkarleby.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<img src="Figurer/skadebrott_Östhammar.svg" alt="Figuren visar antal anmälda skadegörelsebrott i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/skadebrott_Östhammar.svg" download="">Som SVG</a><a href="Figurer/skadebrott_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Sett för alla kommuner och år i perioden så är det endast Håbo och år 2019 som har ett högre antal anmälda skadegörelsebrott per 100 000 än riket. Resterande år och kommuner har värden långt under rikssnittet. Länet visar en minskande trend då Uppsala kommun också har en minskande trend och en stor del av länets befolkning, men en minskande trend syns ej för alla kommuner i länet.</p>
+</section>
+<section id="anmälda-personrån-mot-unga" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-personrån-mot-unga">Anmälda personrån mot unga</h2>
+<p>Detta delkapitel belyser anmälda personrån mot barn och unga under 18 år (8 kap. 5–6 §§ BrB). Brottskategorin omfattar rån där målsäganden är minderårig, oavsett om gärningen skett i offentlig miljö eller annan plats.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-6" role="tab" aria-controls="tabset-2-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-7" role="tab" aria-controls="tabset-2-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-8" role="tab" aria-controls="tabset-2-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<img src="Figurer/personran_b_Enköping.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Enköping.svg" download="">Som SVG</a><a href="Figurer/personran_b_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<img src="Figurer/personran_b_Heby.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Heby.svg" download="">Som SVG</a><a href="Figurer/personran_b_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<img src="Figurer/personran_b_Håbo.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Håbo.svg" download="">Som SVG</a><a href="Figurer/personran_b_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<img src="Figurer/personran_b_Knivsta.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Knivsta.svg" download="">Som SVG</a><a href="Figurer/personran_b_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
+<img src="Figurer/personran_b_Tierp.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Tierp.svg" download="">Som SVG</a><a href="Figurer/personran_b_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-6-tab">
+<img src="Figurer/personran_b_Uppsala.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Uppsala.svg" download="">Som SVG</a><a href="Figurer/personran_b_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-7-tab">
+<img src="Figurer/personran_b_Älvkarleby.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/personran_b_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-8-tab">
+<img src="Figurer/personran_b_Östhammar.svg" alt="Figuren visar antal anmälda personrån mot unga i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/personran_b_Östhammar.svg" download="">Som SVG</a><a href="Figurer/personran_b_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>I figurerna ovan ser vi att antalet personrån mot unga sjunker i länet och riket i liknande takt efter 2019 som påvisar de högsta siffrorna sett till antal per 100 000. Den minskande trenden syns i Håbo, Knivsta och Uppsala. Enköping har ett ökande antal för 2021, 22 och 23, resterande kommuner har väldigt få antal anmälningar.</p>
+</section>
+<section id="anmälda-stöldbrott" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-stöldbrott">Anmälda stöldbrott</h2>
+<p>Detta delkapitel belyser anmälda stöldbrott enligt 8 kap. Brottsbalken (BrB). Brottskategorin omfattar stöld och grov stöld, men exkluderar rån mot privatperson och butiksrån.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-5" role="tab" aria-controls="tabset-3-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-6" role="tab" aria-controls="tabset-3-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-7" role="tab" aria-controls="tabset-3-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-8" role="tab" aria-controls="tabset-3-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<img src="Figurer/stoldbrott_Enköping.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Enköping.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<img src="Figurer/stoldbrott_Heby.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Heby.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<img src="Figurer/stoldbrott_Håbo.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Håbo.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
+<img src="Figurer/stoldbrott_Knivsta.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Knivsta.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
+<img src="Figurer/stoldbrott_Tierp.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Tierp.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-6-tab">
+<img src="Figurer/stoldbrott_Uppsala.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Uppsala.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-7-tab">
+<img src="Figurer/stoldbrott_Älvkarleby.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-8-tab">
+<img src="Figurer/stoldbrott_Östhammar.svg" alt="Figuren visar antal anmälda stöldbrott i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/stoldbrott_Östhammar.svg" download="">Som SVG</a><a href="Figurer/stoldbrott_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Antal anmälda stöldbrott är lägre än rikssnittet i alla kommuner i länet utom Uppsala kommun. Det syns en minskande trend för alla kommuner i länet och i riket.</p>
+</section>
+<section id="anmälda-bilbrott" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-bilbrott">Anmälda bilbrott</h2>
+<p>Detta delkapitel belyser anmälda bilrelaterade brott enligt 8 kap. Brottsbalken (BrB), inklusive tillgrepp av motordrivet fortskaffningsmedel (8 kap. 7 § BrB) samt stöld ur och från motorfordon.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-5" role="tab" aria-controls="tabset-4-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-6" role="tab" aria-controls="tabset-4-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-7" role="tab" aria-controls="tabset-4-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-8" role="tab" aria-controls="tabset-4-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<img src="Figurer/bilbrott_Enköping.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Enköping.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<img src="Figurer/bilbrott_Heby.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Heby.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<img src="Figurer/bilbrott_Håbo.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Håbo.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-4-tab">
+<img src="Figurer/bilbrott_Knivsta.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Knivsta.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-5-tab">
+<img src="Figurer/bilbrott_Tierp.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Tierp.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-6-tab">
+<img src="Figurer/bilbrott_Uppsala.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Uppsala.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-7-tab">
+<img src="Figurer/bilbrott_Älvkarleby.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-8-tab">
+<img src="Figurer/bilbrott_Östhammar.png" alt="Figuren visar antal anmälda bilbrott i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bilbrott_Östhammar.svg" download="">Som SVG</a><a href="Figurer/bilbrott_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Länets kommuner ligger nära länssnittet och under rikssnittet när det gäller anmälda bilbrott. I Enköping så var antalet per 100 000 mycket högre än i länet, men har kraftigt minskat de senaste åren. I Östhammar så är alla år utom 2023 en bra bit under länssnittet sett till antal anmälda bilbrott per 100 000.</p>
+</section>
+<section id="anmälda-bostadsinbrott" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-bostadsinbrott">Anmälda bostadsinbrott</h2>
+<p>Detta delkapitel belyser anmälda bostadsinbrott enligt 8 kap. Brottsbalken (BrB). Brottskategorin omfattar inbrottsstöld i bostäder såsom lägenheter, villor och fritidshus, samt inbrott i källare och vindsutrymmen som hör till bostad.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-5" role="tab" aria-controls="tabset-5-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-6" role="tab" aria-controls="tabset-5-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-7" role="tab" aria-controls="tabset-5-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-8" role="tab" aria-controls="tabset-5-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<img src="Figurer/bostadsinbrott_Enköping.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Enköping.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<img src="Figurer/bostadsinbrott_Heby.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Heby.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<img src="Figurer/bostadsinbrott_Håbo.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Håbo.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-4-tab">
+<img src="Figurer/bostadsinbrott_Knivsta.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Knivsta.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-5-tab">
+<img src="Figurer/bostadsinbrott_Tierp.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Tierp.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-6-tab">
+<img src="Figurer/bostadsinbrott_Uppsala.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Uppsala.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-7-tab">
+<img src="Figurer/bostadsinbrott_Älvkarleby.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-5-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-8-tab">
+<img src="Figurer/bostadsinbrott_Östhammar.svg" alt="Figuren visar antal anmälda bostadsinbrott i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/bostadsinbrott_Östhammar.svg" download="">Som SVG</a><a href="Figurer/bostadsinbrott_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>År 2020 så ökade antalet anmälda bostadsinbrott i Uppsala, men har sedan dess återgått till liknande nivåer som innan. Uppsala har ett högre antal anmälda bostadsinbrott per 100 000 än både länet och riket. Flera av länets resterande kommuner har lägre värden än länet och riket sett till bostadsinbrott per 100 000.</p>
+</section>
+<section id="anmälda-trafikbrott" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-trafikbrott">Anmälda trafikbrott</h2>
+<p>Detta delkapitel belyser anmälda trafikbrott enligt trafikbrottslagen (1951:649). Brottskategorin omfattar bland annat vårdslöshet i trafik, rattfylleri och andra brott mot trafiklagstiftningen.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-5" role="tab" aria-controls="tabset-6-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-6" role="tab" aria-controls="tabset-6-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-7" role="tab" aria-controls="tabset-6-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-8" role="tab" aria-controls="tabset-6-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<img src="Figurer/trafikbrott_Enköping.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Enköping.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<img src="Figurer/trafikbrott_Heby.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Heby.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
+<img src="Figurer/trafikbrott_Håbo.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Håbo.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
+<img src="Figurer/trafikbrott_Knivsta.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Knivsta.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-5-tab">
+<img src="Figurer/trafikbrott_Tierp.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Tierp.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-6-tab">
+<img src="Figurer/trafikbrott_Uppsala.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Uppsala.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-7-tab">
+<img src="Figurer/trafikbrott_Älvkarleby.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-6-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-8-tab">
+<img src="Figurer/trafikbrott_Östhammar.svg" alt="Figuren visar antal anmälda trafikbrott i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/trafikbrott_Östhammar.svg" download="">Som SVG</a><a href="Figurer/trafikbrott_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Ovan så visas utvecklingen av anmälda trafikbrott, där länet har ett liknande antal per 100 000 som riket och det syns en sjunkande trend i både riket och länet. Enköping, Håbo, Knivsta och Tierp har alla mycket högre antal per 100 000 än länet och riket, medan Uppsala kommun har mycket lägre antal per 100 000 än både länet och riket.</p>
+</section>
+<section id="anmälda-narkotikabrott" class="level2">
+<h2 class="anchored" data-anchor-id="anmälda-narkotikabrott">Anmälda narkotikabrott</h2>
+<p>Detta delkapitel belyser anmälda narkotikabrott enligt narkotikastrafflagen (1968:64). Brottskategorin omfattar bland annat bruk, innehav, överlåtelse och tillverkning av narkotika samt försök och förberedelse till narkotikabrott.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Enköping</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false">Heby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false">Håbo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-4" role="tab" aria-controls="tabset-7-4" aria-selected="false">Knivsta</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-5" role="tab" aria-controls="tabset-7-5" aria-selected="false">Tierp</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-6" role="tab" aria-controls="tabset-7-6" aria-selected="false">Uppsala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-7" role="tab" aria-controls="tabset-7-7" aria-selected="false">Älvkarleby</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-8" role="tab" aria-controls="tabset-7-8" aria-selected="false">Östhammar</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<img src="Figurer/narkotikabrott_Enköping.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Enköping , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Enköping.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Enköping.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<img src="Figurer/narkotikabrott_Heby.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Heby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Heby.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Heby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-3-tab">
+<img src="Figurer/narkotikabrott_Håbo.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Håbo , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Håbo.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Håbo.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-4-tab">
+<img src="Figurer/narkotikabrott_Knivsta.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Knivsta , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Knivsta.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Knivsta.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-5-tab">
+<img src="Figurer/narkotikabrott_Tierp.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Tierp , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Tierp.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Tierp.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-6-tab">
+<img src="Figurer/narkotikabrott_Uppsala.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Uppsala , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Uppsala.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Uppsala.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-7-tab">
+<img src="Figurer/narkotikabrott_Älvkarleby.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Älvkarleby , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Älvkarleby.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Älvkarleby.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-7-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-8-tab">
+<img src="Figurer/narkotikabrott_Östhammar.svg" alt="Figuren visar antal anmälda narkotikabrott i total och per 100 000 i  Östhammar , för perioden 2017 till 2024." style="width:100%; max-width:800px; height:100%;">
+<div style="margin-top:0.5rem;">
+<div class="download-dropdown">
+<span class="download-btn">Ladda ner</span>
+<div class="download-menu">
+<a href="Figurer/narkotikabrott_Östhammar.svg" download="">Som SVG</a><a href="Figurer/narkotikabrott_Östhammar.png" download="">Som PNG</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Antalet anmälda narkotikabrott har ökat i Enköping, Håbo, Knivsta, Tierp och Uppsala kommun under perioden. Enköping och Håbo har mycket antal per 100 000 än både länet och riket, medan Heby och Östhammar ligger långt under länets och rikets nivåer.</p>
+</section>
+</section>
+<section id="avvikelse-från-msb-beräkningar" class="level1">
+<h1>Avvikelse från MSB-beräkningar</h1>
+<p>Detta avsnitt visar resultat från MSB:s modellberäkningar baseras på olika strukturella faktorer på kommunnivå. Underlaget utgår från Brottsförebyggande rådets (Brå) officiella kriminalstatistik och beskriver brottsligheten utifrån de brott som anmälts till och handlagts av polis, tull, åklagare, domstol och kriminalvård. Brott som inte anmäls ingår således inte i statistiken. Däremot omfattas brott som begåtts tidigare men anmälts under redovisningsåret, liksom brott som anmälts i Sverige men begåtts utomlands. I viss utsträckning ingår även anmälningar som senare visat sig inte avse något brott.</p>
+<p>Data från modellberäkningarna ska tolkas som att det förväntade antal för ett år och kommun har inträffat eller ej och om det då har inträffat fler eller färre gånger.</p>
+<p>Data är hämtat från <span class="citation" data-cites="kolada">Rådet för främjande av kommunala analyser (<a href="#ref-kolada" role="doc-biblioref">2025</a>)</span> som i sin tur hänvisar till <span class="citation" data-cites="msb2025">Myndigheten för samhällsskydd och beredskap (MSB) (<a href="#ref-msb2025" role="doc-biblioref">2025</a>)</span>.</p>
+<section id="stöld-och-tillgreppsbrott" class="level2">
+<h2 class="anchored" data-anchor-id="stöld-och-tillgreppsbrott">Stöld och tillgreppsbrott</h2>
+<p>Detta avsnitt visar avvikelsen mellan modellberäknat värde och faktiskt antal anmälda stöld- och tillgreppsbrott. Brottskategorin omfattar stöld, tillgrepp av fordon, stöld ur och från fordon, inbrottsstöld, stöld och snatteri, stöld av vapen, ammunition och sprängämnen, övriga stöldbrott enligt 8 kap. brottsbalken samt rån (inklusive grovt rån). Häleri är exkluderat.</p>
+<p>Även här har antalet anmälda brott justerats med SCB:s befolkningsdata för respektive kommun, och ett treårsmedelvärde (år <span class="math inline">\(T–2\)</span> till <span class="math inline">\(T\)</span>) används.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-avvikelse_2" class="quarto-float quarto-figure quarto-figure-center anchored" width="100%" alt="Figuren visar avvikelse för modellberäknat värde för anmälda stöld och tillgreppsbrott för samtliga kommuner i länet för perioden, 2009 till 2024">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-avvikelse_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Figurer/avvikelse_brott_2.svg" id="fig-avvikelse_2" class="img-fluid figure-img" style="width:100.0%" alt="Figuren visar avvikelse för modellberäknat värde för anmälda stöld och tillgreppsbrott för samtliga kommuner i länet för perioden, 2009 till 2024">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-avvikelse_2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figur&nbsp;1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div style="margin-top:0.5rem;">
+  <div class="download-dropdown">
+    <span class="download-btn">Ladda ner</span>
+    <div class="download-menu">
+      <a href="Figurer/avvikelse_brott_2.svg" download="">Som SVG</a>
+      <a href="Figurer/avvikelse_brott_2.png" download="">Som PNG</a>
+    </div>
+  </div>
+</div>
+<p>Enköping och Håbo är de enda kommunerna som haft fler anmälda stöld- och tillgreppsbrott än förväntat, Östhammar har haft ett lägre antal anmälningar för samtliga år under perioden förutom 2024.</p>
+</section>
+</section>
+<section id="ntu" class="level1">
+<h1>NTU</h1>
+<p>NTU (Nationella trygghetsundersökningen) ger en övergripande bild av befolkningens erfarenheter av brott, otrygghet och problem i bostadsområdet. Åren som visas i figurerna motsvarar undersökningsperiodens intervall. Det innebär att om intervallet är exempelvis 2017/2018, så avser resultaten händelser som inträffat under 2016/2017.</p>
+<p>(För mer information, se <span class="citation" data-cites="bra2025kvalitet">Brottsförebyggande rådet (Brå) (<a href="#ref-bra2025kvalitet" role="doc-biblioref">2025b</a>)</span>; <span class="citation" data-cites="bra2024metod">Brottsförebyggande rådet (Brå) (<a href="#ref-bra2024metod" role="doc-biblioref">2024</a>)</span>.)</p>
+<p>Knivsta saknar data för vissa år, detta skulle kunna bero på att det är för få svarande och att data därav röjs för att inte enskilda individer ska kunna spåras.</p>
+<section id="problem-i-bostadsområdet" class="level2">
+<h2 class="anchored" data-anchor-id="problem-i-bostadsområdet">Problem i bostadsområdet</h2>
+<p>Detta avsnitt visar hur invånarna upplever olika typer av problem i sitt bostadsområde. Resultaten speglar både den faktiska förekomsten och invånarnas uppfattning om problemen i sitt närområde, några frågor efterfrågar även utsatthet för brott som drabbar hela hushåll (bostadsinbrott och stöld ur eller från fordon och cykelstölder).</p>
+<div class="cell">
+<div id="fig-ntu_problem" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ntu_problem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-a5a51cf0b26c65cb09d5" style="width:100%;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-a5a51cf0b26c65cb09d5">{"x":{"visdat":{"475819df5f4d":["function () ","plotlyVisDat"]},"cur_data":"475819df5f4d","attrs":{"475819df5f4d":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.0599999999999996,4.3300000000000001,4.3700000000000001,4.5099999999999998,4.6699999999999999,5.6100000000000003,4.5599999999999996],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":true,"inherit":true},"475819df5f4d.1":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.8799999999999999,3.4399999999999999,4.9299999999999997,3.0699999999999998,4.1600000000000001,7.6900000000000004,6.46],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":true,"inherit":true},"475819df5f4d.2":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.6399999999999997,7.3899999999999997,7.7400000000000002,7.7400000000000002,6.8600000000000003,6.6399999999999997,6.25],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":true,"inherit":true},"475819df5f4d.3":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[11.109999999999999,11.81,10.44,7.9500000000000002,6.4199999999999999,6.1200000000000001,5.29],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":true,"inherit":true},"475819df5f4d.4":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.7400000000000002,null,6.2300000000000004,6.7800000000000002,2.5099999999999998,null,3.1400000000000001],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":true,"inherit":true},"475819df5f4d.5":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.5800000000000001,6.5,8.0800000000000001,7.6799999999999997,6.8899999999999997,6.29,8.4199999999999999],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":true,"inherit":true},"475819df5f4d.6":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[8.4700000000000006,6.3499999999999996,5.4699999999999998,6.8300000000000001,4.8899999999999997,4.6200000000000001,5.9400000000000004],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":true,"inherit":true},"475819df5f4d.7":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.1799999999999997,6.2300000000000004,5.8799999999999999,6.4299999999999997,4.9299999999999997,4.8899999999999997,5.5300000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":true,"inherit":true},"475819df5f4d.8":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.8799999999999999,6.3099999999999996,6.0099999999999998,4.4000000000000004,5.3899999999999997,5.6299999999999999,4.6100000000000003],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":true,"inherit":true},"475819df5f4d.9":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.4699999999999998,4.79,7.0899999999999999,6.0899999999999999,5.04,4.3300000000000001,2.4700000000000002],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":true,"inherit":true},"475819df5f4d.10":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.0299999999999998,3.3100000000000001,3.1400000000000001,2.3199999999999998,2.2400000000000002,2.6000000000000001,2.5899999999999999],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.11":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.04,1.8999999999999999,2.4100000000000001,1.6499999999999999,1.1200000000000001,5.2699999999999996,5.96],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.12":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.2300000000000004,6.2800000000000002,6.3200000000000003,6.0199999999999996,5.3799999999999999,5.1699999999999999,4.8700000000000001],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.13":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[9.8300000000000001,12.369999999999999,12.220000000000001,11.16,10.609999999999999,9.6099999999999994,7.3200000000000003],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.14":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.7699999999999996,null,20.260000000000002,14.43,4.6500000000000004,null,5.6299999999999999],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.15":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.5800000000000001,6.1399999999999997,7.5800000000000001,9.0199999999999996,6.54,6.2199999999999998,6.9299999999999997],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.16":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.1299999999999999,4.4299999999999997,4.25,4.2999999999999998,3.3500000000000001,2.7599999999999998,4.8799999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.17":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.04,5.0700000000000003,5.4000000000000004,5.0300000000000002,3.7400000000000002,3.4500000000000002,4.75],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.18":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.5300000000000002,5.4800000000000004,6.9800000000000004,5.6699999999999999,3.3399999999999999,4.1200000000000001,4.0499999999999998],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.19":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.79,2.52,2.7799999999999998,1.99,2.2799999999999998,2.6000000000000001,1.8899999999999999],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.20":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[20.469999999999999,20.77,18.640000000000001,20.449999999999999,21.829999999999998,17.460000000000001],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.21":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[28.649999999999999,27.43,24.629999999999999,25.760000000000002,30.059999999999999,26.84],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.22":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[20.449999999999999,20.23,19.640000000000001,19.010000000000002,18.469999999999999,17.460000000000001],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.23":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[24,20.66,19.370000000000001,18.640000000000001,17.420000000000002,20.23],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.24":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[null,16.920000000000002,20.739999999999998,18.149999999999999,null,19.129999999999999],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.25":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[18.699999999999999,20.609999999999999,21.760000000000002,20.98,20.030000000000001,18.059999999999999],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.26":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[17.34,16.059999999999999,14.050000000000001,12.67,12.92,13.24],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.27":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[19.079999999999998,17.940000000000001,16.440000000000001,15.44,15.199999999999999,15.56],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.28":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[30.170000000000002,27.620000000000001,22.629999999999999,17.199999999999999,15.949999999999999,17.120000000000001],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.29":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[21.350000000000001,17.719999999999999,16.760000000000002,16.670000000000002,16.469999999999999,19.300000000000001],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.30":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[9.7699999999999996,10.699999999999999,9.7300000000000004,10.460000000000001,12.67,10.5],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.31":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[15.25,16.68,14.67,15.81,20.75,16.149999999999999],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.32":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[12.76,12.710000000000001,13.199999999999999,13.9,13.800000000000001,12.869999999999999],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.33":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[12.65,10.16,8.7300000000000004,9.7200000000000006,10.19,14.210000000000001],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.34":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[null,17.199999999999999,15.25,15.130000000000001,null,8.4800000000000004],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.35":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[9.5399999999999991,10.93,10.640000000000001,10.26,11.77,14.140000000000001],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.36":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[10.01,9.1400000000000006,8.6600000000000001,7.9500000000000002,7.8300000000000001,8.9900000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.37":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[11.279999999999999,10.59,10,9.5800000000000001,9.6799999999999997,10.35],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.38":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[14.92,16.57,13.24,7.79,6.9299999999999997,10.5],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.39":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[15.48,14.25,15.890000000000001,16.100000000000001,15.960000000000001,15.16],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.40":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[7.2699999999999996,6.25,4.6900000000000004,4.1200000000000001,4.1500000000000004,3.8100000000000001],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.41":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[3.0099999999999998,4.5,3.8199999999999998,1.6299999999999999,6.0800000000000001,8.4499999999999993],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.42":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[7.04,7.3099999999999996,6.6699999999999999,5.7199999999999998,5.8899999999999997,5.8300000000000001],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.43":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[6.71,6.9100000000000001,5.4199999999999999,3.2599999999999998,1.8500000000000001,2.1800000000000002],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.44":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[null,3.4199999999999999,3.9399999999999999,2.9100000000000001,null,0],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.45":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[6.7400000000000002,6.1299999999999999,4.4299999999999997,6.8300000000000001,8.1999999999999993,7.8600000000000003],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.46":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[4.9699999999999998,5.3399999999999999,5.1399999999999997,4.1600000000000001,4.5099999999999998,4.9900000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.47":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[5.3799999999999999,5.4699999999999998,4.79,3.8900000000000001,4.25,4.5700000000000003],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.48":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[5.6200000000000001,5.3499999999999996,2.54,1.47,4.3899999999999997,3.46],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.49":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[6.5099999999999998,5.3799999999999999,3.3900000000000001,2.2999999999999998,2.4500000000000002,3.02],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.50":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[4.6900000000000004,4.6699999999999999,4.54,4.4100000000000001,4.4299999999999997,3.7799999999999998],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.51":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[1.52,3.2599999999999998,3.4900000000000002,1.95,2.8599999999999999,2.98],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.52":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[7.0999999999999996,7.6900000000000004,7.8200000000000003,7.0599999999999996,6.6299999999999999,6.1100000000000003],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.53":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[6.1399999999999997,11.17,11.23,6.7599999999999998,6.8099999999999996,5.8300000000000001],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.54":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[null,2.4700000000000002,8.2799999999999994,8.3399999999999999,null,7.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.55":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[4.2300000000000004,3.3599999999999999,2.48,4.3799999999999999,4.46,4.6799999999999997],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.56":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[5.75,8.7200000000000006,9.3499999999999996,6.1699999999999999,5.2300000000000004,6.3700000000000001],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.57":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[4.9699999999999998,7.1600000000000001,7.71,5.5899999999999999,5.0499999999999998,5.5],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.58":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[5.2599999999999998,5.7300000000000004,3.6499999999999999,3.6699999999999999,4.46,1.95],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.59":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2018","2019","2020","2021","2022","2023"],"y":[3,2.0800000000000001,1.8899999999999999,2.6099999999999999,2.1000000000000001,1.73],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.60":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.77,4.3200000000000003,3.79,3.3900000000000001,3.2599999999999998,3.02,2.77],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.61":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.0099999999999998,0.93000000000000005,2.5299999999999998,3.5,3.0299999999999998,5.4400000000000004,4.9900000000000002],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.62":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.8899999999999997,5.0599999999999996,5.6900000000000004,5.9699999999999998,5.8300000000000001,6.0099999999999998,5.9000000000000004],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.63":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.1799999999999997,4.8799999999999999,7.4100000000000001,7.21,5.8099999999999996,4.7699999999999996,4.1600000000000001],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.64":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[0,null,1.79,1.5,2.2200000000000002,null,5.1500000000000004],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.65":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.3300000000000001,1.8500000000000001,2.1200000000000001,2.6600000000000001,2.98,4.3300000000000001,5.3899999999999997],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.66":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.5800000000000001,2.2400000000000002,3.6499999999999999,4.6399999999999997,3.5099999999999998,3.3300000000000001,5.0300000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.67":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.71,2.4900000000000002,3.6000000000000001,4.1600000000000001,3.3999999999999999,3.5899999999999999,4.5999999999999996],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.68":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.3900000000000001,4.4800000000000004,6.0099999999999998,4.2699999999999996,1.5800000000000001,4.8200000000000003,4.6299999999999999],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.69":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.3,0.98999999999999999,1.53,1.6599999999999999,2.6899999999999999,2.77,2.8399999999999999],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.70":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.1100000000000001,1.8100000000000001,1.6399999999999999,1.3799999999999999,1.1399999999999999,0.77000000000000002,0.54000000000000004],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.71":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[0.5,0.68000000000000005,1.0600000000000001,1.05,0.68000000000000005,0,0.37],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.72":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.2,1.3400000000000001,1.45,1.3899999999999999,1.24,1.1299999999999999,1],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.73":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.25,2.3999999999999999,2.6899999999999999,0.75,0.56999999999999995,0.71999999999999997,0.46000000000000002],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.74":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[0,null,0.97999999999999998,0.84999999999999998,2.2200000000000002,null,1.25],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.75":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.6399999999999999,2.1299999999999999,1.74,1.1499999999999999,2.1800000000000002,1.6499999999999999,0.5],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.76":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.54,1.72,1.1899999999999999,1.0700000000000001,1,0.62,0.42999999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.77":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.3400000000000001,1.6799999999999999,1.3400000000000001,1.04,1.03,0.73999999999999999,0.46000000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.78":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.1000000000000001,1.5800000000000001,1.5800000000000001,0.5,0,0.75,0.75],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.79":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.1499999999999999,1.1200000000000001,1.25,0.5,0.14999999999999999,0.14999999999999999,0],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.80":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.8999999999999999,5.7699999999999996,7.4000000000000004,6.4400000000000004,6.8399999999999999,7.25,5.9500000000000002],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.81":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.21,5.4400000000000004,5.5899999999999999,6.1399999999999997,6.5099999999999998,6.8700000000000001,8.25],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.82":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.6100000000000003,4.9199999999999999,5.0800000000000001,5.29,5.6200000000000001,5.9400000000000004,6.5099999999999998],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.83":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.0999999999999996,6.29,6.3899999999999997,6.6600000000000001,7.8300000000000001,6.7000000000000002,5.2400000000000002],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.84":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.7400000000000002,null,5.5300000000000002,5.54,6.1799999999999997,null,4.7699999999999996],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.85":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.9299999999999997,4.2000000000000002,2.8399999999999999,3.1000000000000001,4.7800000000000002,7.1200000000000001,8.0199999999999996],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.86":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.3200000000000003,4.1500000000000004,4.3300000000000001,5.1299999999999999,4.5599999999999996,4.8899999999999997,6.8499999999999996],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.87":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.2699999999999996,4.4100000000000001,4.8600000000000003,5.25,5.21,5.6299999999999999,6.4400000000000004],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.88":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.4000000000000004,6.2400000000000002,6.9100000000000001,4.9800000000000004,6.5499999999999998,8.75,4.8499999999999996],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.89":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.3100000000000001,2.4300000000000002,3.7000000000000002,4.2400000000000002,4.7300000000000004,4.46,3.9399999999999999],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.90":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.1600000000000001,4.4000000000000004,4.9299999999999997,3.1600000000000001,3.0699999999999998,4.0499999999999998,3.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.91":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.8999999999999999,2.9900000000000002,1.8500000000000001,1.5800000000000001,1.5600000000000001,1.0700000000000001,3.1400000000000001],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.92":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.9699999999999998,5.25,5.3700000000000001,4.7000000000000002,3.8100000000000001,3.6299999999999999,3.98],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.93":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.71,4.5300000000000002,4.2300000000000004,3.1600000000000001,3.0600000000000001,2.9199999999999999,5.46],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.94":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.79,null,2.0099999999999998,2.8900000000000001,2.3599999999999999,null,4.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.95":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.7599999999999998,4.25,4.4699999999999998,3.3199999999999998,3.1299999999999999,3.0600000000000001,2.1600000000000001],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.96":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.7599999999999998,3.4399999999999999,4.3200000000000003,4.1100000000000003,2.5499999999999998,2.5800000000000001,4.5],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.97":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.8999999999999999,3.5800000000000001,4.2300000000000004,3.7599999999999998,2.6099999999999999,2.71,4.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.98":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.0499999999999998,2.8999999999999999,4.3099999999999996,4.5800000000000001,3.1099999999999999,4.1900000000000004,5.4800000000000004],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.99":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.1799999999999997,3.7999999999999998,5.0099999999999998,4.1399999999999997,2.0099999999999998,1.96,2.2599999999999998],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true},"475819df5f4d.100":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.8300000000000001,9.5399999999999991,9.3000000000000007,8.2100000000000009,8.1600000000000001,6.8200000000000003,6.7800000000000002],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8},"visible":false,"inherit":true},"475819df5f4d.101":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.1200000000000001,4.5700000000000003,7.5,9.0299999999999994,8.3800000000000008,7.4800000000000004,4.6500000000000004],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8},"visible":false,"inherit":true},"475819df5f4d.102":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[10.470000000000001,10.699999999999999,11.27,10.99,10.41,10.17,9.7400000000000002],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8},"visible":false,"inherit":true},"475819df5f4d.103":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.7800000000000002,6.9100000000000001,8.9299999999999997,11.48,8.9100000000000001,5.8300000000000001,4.9400000000000004],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8},"visible":false,"inherit":true},"475819df5f4d.104":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[11.9,null,8.6099999999999994,8.8599999999999994,6.4100000000000001,null,10.52],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8},"visible":false,"inherit":true},"475819df5f4d.105":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[9.0199999999999996,6.6600000000000001,4.6200000000000001,5.2400000000000002,9.0099999999999998,8.2599999999999998,5.9800000000000004],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8},"visible":false,"inherit":true},"475819df5f4d.106":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[19.489999999999998,16.780000000000001,18.530000000000001,19.899999999999999,17.82,17.329999999999998,14.529999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8},"visible":false,"inherit":true},"475819df5f4d.107":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[15.07,13.369999999999999,14.470000000000001,15.48,14.16,13.550000000000001,11.529999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8},"visible":false,"inherit":true},"475819df5f4d.108":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[8.5899999999999999,4.5899999999999999,6.2800000000000002,9.8800000000000008,8.9199999999999999,10.68,10.609999999999999],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8},"visible":false,"inherit":true},"475819df5f4d.109":{"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[8.2699999999999996,7.4699999999999998,5.21,4.96,6.1100000000000003,6.0099999999999998,3.9300000000000002],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8},"visible":false,"inherit":true}},"layout":{"margin":{"b":50,"l":60,"t":150,"r":10},"title":{"text":"Problem med skadegörelse i det egna<br />bostadsområdet, enligt NTU 2017–2024. Andel (%)<br />i befolkningen (16–84 år) som upplever problem i<br />stor utsträckning.","y":0.94999999999999996,"x":0.55000000000000004,"font":{"size":20,"color":"#B81867"}},"xaxis":{"domain":[0,1],"automargin":true,"title":" ","tickangle":0,"type":"category","categoryorder":"array","categoryarray":["2017","2018","2019","2020","2021","2022","2023"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"<b>Andel (%)<b>","rangemode":"tozero"},"hovermode":"x unified","updatemenus":[{"y":1,"x":-0.10000000000000001,"buttons":[{"method":"update","args":[{"visible":[true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med skadegörelse i det egna<br />bostadsområdet, enligt NTU 2017–2024. Andel (%)<br />i befolkningen (16–84 år) som upplever problem i<br />stor utsträckning."}],"label":"Skadegörelse-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med klotter i det egna bostadsområdet,<br />enligt NTU 2017–2024. Andel (%) i befolkningen<br />(16–84 år) som upplever problem i stor<br />utsträckning."}],"label":"Klotter-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med fortkörning i det egna bostadsområdet,<br />enligt NTU 2018–2024. Andel (%) i befolkningen<br />(16–84 år) som upplever problem i stor<br />utsträckning."}],"label":"Fortkörning-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med fortkörning i det egna bostadsområdet,<br />enligt NTU 2018–2024. Andel (%) i befolkningen<br />(16–84 år) som upplever problem i stor<br />utsträckning."}],"label":"Störande körning-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med personer påverkade av alkohol eller<br />droger utomhus i det egna bostadsområdet, enligt<br />NTU 2018–2024. Andel (%) i befolkningen (16–84 år)<br />som upplever problem i stor utsträckning."}],"label":"Påverkad alkohol droger-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med gäng som uppehåller sig i det egna<br />bostadsområdet, enligt NTU 2018–2024. Andel (%)<br />i befolkningen (16–84 år) som upplever problem i<br />stor utsträckning."}],"label":"Gäng i området-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Problem med öppen narkotikahandel i det egna<br />bostadsområdet, enligt NTU 2017–2024. Andel (%)<br />i befolkningen (16–84 år) som upplever problem i<br />stor utsträckning."}],"label":"Öppen narkotikahandel-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Självrapporterad utsatthet för rån 2016–2023,<br />enligt NTU 2017–2024. Andel (%) utsatta i<br />befolkningen (16–84 år)."}],"label":"Rån-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]},{"title":"Självrapporterad utsatthet för<br />försäljningsbedrägeri 2016–2023, enligt NTU<br />2017–2024. Andel (%) utsatta i befolkningen (16–84<br />år)."}],"label":"Försäljningsbedrägeri-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false]},{"title":"Självrapporterad utsatthet för<br />kort-/kreditbedrägeri 2016–2023, enligt NTU<br />2017–2024. Andel (%) utsatta i befolkningen (16–84<br />år)."}],"label":"Kort_kreditbedrägeri-NTU"},{"method":"update","args":[{"visible":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,true,true,true,true,true,true,true,true,true,true]},{"title":"Självrapporterad utsatthet för cykelstöld bland<br />cykelägare 2016–2023, enligt NTU 2017–2024. Andel<br />(%) utsatta hushåll."}],"label":"Cykelstöld-NTU"}],"direction":"down"}],"annotations":[{"text":"Källa: NTU","x":0,"y":-0.14999999999999999,"xref":"paper","yref":"paper","xanchor":"left","yanchor":"bottom","showarrow":false,"font":{"size":12}}],"showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"modeBarButtonsToRemove":["zoom2d","pan2d","select2d","lasso2d","zoomIn2d","zoomOut2d"],"displaylogo":false},"data":[{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.0599999999999996,4.3300000000000001,4.3700000000000001,4.5099999999999998,4.6699999999999999,5.6100000000000003,4.5599999999999996],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":true,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.8799999999999999,3.4399999999999999,4.9299999999999997,3.0699999999999998,4.1600000000000001,7.6900000000000004,6.46],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":true,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.6399999999999997,7.3899999999999997,7.7400000000000002,7.7400000000000002,6.8600000000000003,6.6399999999999997,6.25],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":true,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[11.109999999999999,11.81,10.44,7.9500000000000002,6.4199999999999999,6.1200000000000001,5.29],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":true,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[6.7400000000000002,null,6.2300000000000004,6.7800000000000002,2.5099999999999998,null,3.1400000000000001],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":true,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.5800000000000001,6.5,8.0800000000000001,7.6799999999999997,6.8899999999999997,6.29,8.4199999999999999],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":true,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[8.4700000000000006,6.3499999999999996,5.4699999999999998,6.8300000000000001,4.8899999999999997,4.6200000000000001,5.9400000000000004],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":true,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.1799999999999997,6.2300000000000004,5.8799999999999999,6.4299999999999997,4.9299999999999997,4.8899999999999997,5.5300000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":true,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.8799999999999999,6.3099999999999996,6.0099999999999998,4.4000000000000004,5.3899999999999997,5.6299999999999999,4.6100000000000003],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":true,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.4699999999999998,4.79,7.0899999999999999,6.0899999999999999,5.04,4.3300000000000001,2.4700000000000002],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":true,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.0299999999999998,3.3100000000000001,3.1400000000000001,2.3199999999999998,2.2400000000000002,2.6000000000000001,2.5899999999999999],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.04,1.8999999999999999,2.4100000000000001,1.6499999999999999,1.1200000000000001,5.2699999999999996,5.96],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.2300000000000004,6.2800000000000002,6.3200000000000003,6.0199999999999996,5.3799999999999999,5.1699999999999999,4.8700000000000001],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[9.8300000000000001,12.369999999999999,12.220000000000001,11.16,10.609999999999999,9.6099999999999994,7.3200000000000003],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[5.7699999999999996,null,20.260000000000002,14.43,4.6500000000000004,null,5.6299999999999999],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.5800000000000001,6.1399999999999997,7.5800000000000001,9.0199999999999996,6.54,6.2199999999999998,6.9299999999999997],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.1299999999999999,4.4299999999999997,4.25,4.2999999999999998,3.3500000000000001,2.7599999999999998,4.8799999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.04,5.0700000000000003,5.4000000000000004,5.0300000000000002,3.7400000000000002,3.4500000000000002,4.75],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.5300000000000002,5.4800000000000004,6.9800000000000004,5.6699999999999999,3.3399999999999999,4.1200000000000001,4.0499999999999998],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.79,2.52,2.7799999999999998,1.99,2.2799999999999998,2.6000000000000001,1.8899999999999999],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[20.469999999999999,20.77,18.640000000000001,20.449999999999999,21.829999999999998,17.460000000000001],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[28.649999999999999,27.43,24.629999999999999,25.760000000000002,30.059999999999999,26.84],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[20.449999999999999,20.23,19.640000000000001,19.010000000000002,18.469999999999999,17.460000000000001],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[24,20.66,19.370000000000001,18.640000000000001,17.420000000000002,20.23],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2019","2020","2021",null,"2023"],"y":[16.920000000000002,20.739999999999998,18.149999999999999,null,19.129999999999999],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[18.699999999999999,20.609999999999999,21.760000000000002,20.98,20.030000000000001,18.059999999999999],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[17.34,16.059999999999999,14.050000000000001,12.67,12.92,13.24],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[19.079999999999998,17.940000000000001,16.440000000000001,15.44,15.199999999999999,15.56],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[30.170000000000002,27.620000000000001,22.629999999999999,17.199999999999999,15.949999999999999,17.120000000000001],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[21.350000000000001,17.719999999999999,16.760000000000002,16.670000000000002,16.469999999999999,19.300000000000001],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[9.7699999999999996,10.699999999999999,9.7300000000000004,10.460000000000001,12.67,10.5],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[15.25,16.68,14.67,15.81,20.75,16.149999999999999],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[12.76,12.710000000000001,13.199999999999999,13.9,13.800000000000001,12.869999999999999],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[12.65,10.16,8.7300000000000004,9.7200000000000006,10.19,14.210000000000001],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2019","2020","2021",null,"2023"],"y":[17.199999999999999,15.25,15.130000000000001,null,8.4800000000000004],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[9.5399999999999991,10.93,10.640000000000001,10.26,11.77,14.140000000000001],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[10.01,9.1400000000000006,8.6600000000000001,7.9500000000000002,7.8300000000000001,8.9900000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[11.279999999999999,10.59,10,9.5800000000000001,9.6799999999999997,10.35],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[14.92,16.57,13.24,7.79,6.9299999999999997,10.5],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[15.48,14.25,15.890000000000001,16.100000000000001,15.960000000000001,15.16],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[7.2699999999999996,6.25,4.6900000000000004,4.1200000000000001,4.1500000000000004,3.8100000000000001],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[3.0099999999999998,4.5,3.8199999999999998,1.6299999999999999,6.0800000000000001,8.4499999999999993],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[7.04,7.3099999999999996,6.6699999999999999,5.7199999999999998,5.8899999999999997,5.8300000000000001],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[6.71,6.9100000000000001,5.4199999999999999,3.2599999999999998,1.8500000000000001,2.1800000000000002],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2019","2020","2021",null,"2023"],"y":[3.4199999999999999,3.9399999999999999,2.9100000000000001,null,0],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[6.7400000000000002,6.1299999999999999,4.4299999999999997,6.8300000000000001,8.1999999999999993,7.8600000000000003],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[4.9699999999999998,5.3399999999999999,5.1399999999999997,4.1600000000000001,4.5099999999999998,4.9900000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[5.3799999999999999,5.4699999999999998,4.79,3.8900000000000001,4.25,4.5700000000000003],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[5.6200000000000001,5.3499999999999996,2.54,1.47,4.3899999999999997,3.46],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[6.5099999999999998,5.3799999999999999,3.3900000000000001,2.2999999999999998,2.4500000000000002,3.02],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[4.6900000000000004,4.6699999999999999,4.54,4.4100000000000001,4.4299999999999997,3.7799999999999998],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[1.52,3.2599999999999998,3.4900000000000002,1.95,2.8599999999999999,2.98],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[7.0999999999999996,7.6900000000000004,7.8200000000000003,7.0599999999999996,6.6299999999999999,6.1100000000000003],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[6.1399999999999997,11.17,11.23,6.7599999999999998,6.8099999999999996,5.8300000000000001],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2019","2020","2021",null,"2023"],"y":[2.4700000000000002,8.2799999999999994,8.3399999999999999,null,7.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[4.2300000000000004,3.3599999999999999,2.48,4.3799999999999999,4.46,4.6799999999999997],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[5.75,8.7200000000000006,9.3499999999999996,6.1699999999999999,5.2300000000000004,6.3700000000000001],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[4.9699999999999998,7.1600000000000001,7.71,5.5899999999999999,5.0499999999999998,5.5],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[5.2599999999999998,5.7300000000000004,3.6499999999999999,3.6699999999999999,4.46,1.95],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2018","2019","2020","2021","2022","2023"],"y":[3,2.0800000000000001,1.8899999999999999,2.6099999999999999,2.1000000000000001,1.73],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.77,4.3200000000000003,3.79,3.3900000000000001,3.2599999999999998,3.02,2.77],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.0099999999999998,0.93000000000000005,2.5299999999999998,3.5,3.0299999999999998,5.4400000000000004,4.9900000000000002],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.8899999999999997,5.0599999999999996,5.6900000000000004,5.9699999999999998,5.8300000000000001,6.0099999999999998,5.9000000000000004],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.1799999999999997,4.8799999999999999,7.4100000000000001,7.21,5.8099999999999996,4.7699999999999996,4.1600000000000001],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[0,null,1.79,1.5,2.2200000000000002,null,5.1500000000000004],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.3300000000000001,1.8500000000000001,2.1200000000000001,2.6600000000000001,2.98,4.3300000000000001,5.3899999999999997],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.5800000000000001,2.2400000000000002,3.6499999999999999,4.6399999999999997,3.5099999999999998,3.3300000000000001,5.0300000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.71,2.4900000000000002,3.6000000000000001,4.1600000000000001,3.3999999999999999,3.5899999999999999,4.5999999999999996],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.3900000000000001,4.4800000000000004,6.0099999999999998,4.2699999999999996,1.5800000000000001,4.8200000000000003,4.6299999999999999],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.3,0.98999999999999999,1.53,1.6599999999999999,2.6899999999999999,2.77,2.8399999999999999],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.1100000000000001,1.8100000000000001,1.6399999999999999,1.3799999999999999,1.1399999999999999,0.77000000000000002,0.54000000000000004],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[0.5,0.68000000000000005,1.0600000000000001,1.05,0.68000000000000005,0,0.37],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.2,1.3400000000000001,1.45,1.3899999999999999,1.24,1.1299999999999999,1],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.25,2.3999999999999999,2.6899999999999999,0.75,0.56999999999999995,0.71999999999999997,0.46000000000000002],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[0,null,0.97999999999999998,0.84999999999999998,2.2200000000000002,null,1.25],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.6399999999999999,2.1299999999999999,1.74,1.1499999999999999,2.1800000000000002,1.6499999999999999,0.5],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.54,1.72,1.1899999999999999,1.0700000000000001,1,0.62,0.42999999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.3400000000000001,1.6799999999999999,1.3400000000000001,1.04,1.03,0.73999999999999999,0.46000000000000002],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.1000000000000001,1.5800000000000001,1.5800000000000001,0.5,0,0.75,0.75],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[1.1499999999999999,1.1200000000000001,1.25,0.5,0.14999999999999999,0.14999999999999999,0],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.8999999999999999,5.7699999999999996,7.4000000000000004,6.4400000000000004,6.8399999999999999,7.25,5.9500000000000002],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.21,5.4400000000000004,5.5899999999999999,6.1399999999999997,6.5099999999999998,6.8700000000000001,8.25],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.6100000000000003,4.9199999999999999,5.0800000000000001,5.29,5.6200000000000001,5.9400000000000004,6.5099999999999998],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.0999999999999996,6.29,6.3899999999999997,6.6600000000000001,7.8300000000000001,6.7000000000000002,5.2400000000000002],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[2.7400000000000002,null,5.5300000000000002,5.54,6.1799999999999997,null,4.7699999999999996],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.9299999999999997,4.2000000000000002,2.8399999999999999,3.1000000000000001,4.7800000000000002,7.1200000000000001,8.0199999999999996],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.3200000000000003,4.1500000000000004,4.3300000000000001,5.1299999999999999,4.5599999999999996,4.8899999999999997,6.8499999999999996],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.2699999999999996,4.4100000000000001,4.8600000000000003,5.25,5.21,5.6299999999999999,6.4400000000000004],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[5.4000000000000004,6.2400000000000002,6.9100000000000001,4.9800000000000004,6.5499999999999998,8.75,4.8499999999999996],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[2.3100000000000001,2.4300000000000002,3.7000000000000002,4.2400000000000002,4.7300000000000004,4.46,3.9399999999999999],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.1600000000000001,4.4000000000000004,4.9299999999999997,3.1600000000000001,3.0699999999999998,4.0499999999999998,3.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.8999999999999999,2.9900000000000002,1.8500000000000001,1.5800000000000001,1.5600000000000001,1.0700000000000001,3.1400000000000001],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.9699999999999998,5.25,5.3700000000000001,4.7000000000000002,3.8100000000000001,3.6299999999999999,3.98],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.71,4.5300000000000002,4.2300000000000004,3.1600000000000001,3.0600000000000001,2.9199999999999999,5.46],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[3.79,null,2.0099999999999998,2.8900000000000001,2.3599999999999999,null,4.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.7599999999999998,4.25,4.4699999999999998,3.3199999999999998,3.1299999999999999,3.0600000000000001,2.1600000000000001],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.7599999999999998,3.4399999999999999,4.3200000000000003,4.1100000000000003,2.5499999999999998,2.5800000000000001,4.5],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.8999999999999999,3.5800000000000001,4.2300000000000004,3.7599999999999998,2.6099999999999999,2.71,4.0800000000000001],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.0499999999999998,2.8999999999999999,4.3099999999999996,4.5800000000000001,3.1099999999999999,4.1900000000000004,5.4800000000000004],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[4.1799999999999997,3.7999999999999998,5.0099999999999998,4.1399999999999997,2.0099999999999998,1.96,2.2599999999999998],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[7.8300000000000001,9.5399999999999991,9.3000000000000007,8.2100000000000009,8.1600000000000001,6.8200000000000003,6.7800000000000002],"type":"scatter","mode":"lines+markers","name":"Enköping","line":{"color":"#D57667","width":5},"marker":{"color":"#D57667","size":8,"line":{"color":"rgba(31,119,180,1)"}},"visible":false,"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[3.1200000000000001,4.5700000000000003,7.5,9.0299999999999994,8.3800000000000008,7.4800000000000004,4.6500000000000004],"type":"scatter","mode":"lines+markers","name":"Heby","line":{"color":"#F9B000","width":5},"marker":{"color":"#F9B000","size":8,"line":{"color":"rgba(255,127,14,1)"}},"visible":false,"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[10.470000000000001,10.699999999999999,11.27,10.99,10.41,10.17,9.7400000000000002],"type":"scatter","mode":"lines+markers","name":"Hela Riket","line":{"color":"black","width":5},"marker":{"color":"black","size":8,"line":{"color":"rgba(44,160,44,1)"}},"visible":false,"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[6.7800000000000002,6.9100000000000001,8.9299999999999997,11.48,8.9100000000000001,5.8300000000000001,4.9400000000000004],"type":"scatter","mode":"lines+markers","name":"Håbo","line":{"color":"#019CD7","width":5},"marker":{"color":"#019CD7","size":8,"line":{"color":"rgba(214,39,40,1)"}},"visible":false,"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017",null,"2019","2020","2021",null,"2023"],"y":[11.9,null,8.6099999999999994,8.8599999999999994,6.4100000000000001,null,10.52],"type":"scatter","mode":"lines+markers","name":"Knivsta","line":{"color":"#D0342C","width":5},"marker":{"color":"#D0342C","size":8,"line":{"color":"rgba(148,103,189,1)"}},"visible":false,"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[9.0199999999999996,6.6600000000000001,4.6200000000000001,5.2400000000000002,9.0099999999999998,8.2599999999999998,5.9800000000000004],"type":"scatter","mode":"lines+markers","name":"Tierp","line":{"color":"#4AA271","width":5},"marker":{"color":"#4AA271","size":8,"line":{"color":"rgba(140,86,75,1)"}},"visible":false,"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[19.489999999999998,16.780000000000001,18.530000000000001,19.899999999999999,17.82,17.329999999999998,14.529999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala","line":{"color":"#6F787E","width":5},"marker":{"color":"#6F787E","size":8,"line":{"color":"rgba(227,119,194,1)"}},"visible":false,"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[15.07,13.369999999999999,14.470000000000001,15.48,14.16,13.550000000000001,11.529999999999999],"type":"scatter","mode":"lines+markers","name":"Uppsala län","line":{"color":"#B81867","width":5},"marker":{"color":"#B81867","size":8,"line":{"color":"rgba(127,127,127,1)"}},"visible":false,"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[8.5899999999999999,4.5899999999999999,6.2800000000000002,9.8800000000000008,8.9199999999999999,10.68,10.609999999999999],"type":"scatter","mode":"lines+markers","name":"Älvkarleby","line":{"color":"#8B4A9C","width":5},"marker":{"color":"#8B4A9C","size":8,"line":{"color":"rgba(188,189,34,1)"}},"visible":false,"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2017","2018","2019","2020","2021","2022","2023"],"y":[8.2699999999999996,7.4699999999999998,5.21,4.96,6.1100000000000003,6.0099999999999998,3.9300000000000002],"type":"scatter","mode":"lines+markers","name":"Östhammar","line":{"color":"#E67E22","width":5},"marker":{"color":"#E67E22","size":8,"line":{"color":"rgba(23,190,207,1)"}},"visible":false,"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-ntu_problem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figur&nbsp;2
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Det syns en minskande trend i länet för andelen som svarat att de i stor utsträckning upplever problem med skadegörelse och klotter i det egna bostadsområdet.</p>
+<p>Andelen som svarat på att de i stor utsträcknign upplever problem med öppen narkotikahandel är längre i länets alla kommuner än i riket. När det gäller frågan angående gängkriminalitet så är andelen som upplever problem väldigt låg i Östhammar, Älvkarleby, Heby, Enköping och Tierp, medan Håbo, Uppsala och Knivsta ligger nära eller över rikssnittet.</p>
+<p>Den fråga där länet sticker ut mest är angående cykelstölder, detta då Uppsala kommun har en mycket större andel hushåll som angett sig vara utsatta än övriga länet och riket.</p>
+
+
+</section>
+</section>
+<section id="bibliography" class="level1 unnumbered">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Källor</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bra2024metod" class="csl-entry" role="listitem">
+Brottsförebyggande rådet (Brå). 2024. <span>”Brås statistiska undersökningar om brott: Metodbeskrivning 2024”</span>. Brottsförebyggande rådet. <a href="https://bra.se/download/18.6c2b61ea191e4ffb9fe6def/1728373508189/2024_Bras-statistiska%20-undersokningar-om-brott.pdf">https://bra.se/download/18.6c2b61ea191e4ffb9fe6def/1728373508189/2024_Bras-statistiska%20-undersokningar-om-brott.pdf</a>.
+</div>
+<div id="ref-bra" class="csl-entry" role="listitem">
+———. 2025a. <span>”Data från Brå”</span>. <a href="https://bra.se/">https://bra.se/</a>.
+</div>
+<div id="ref-bra2025kvalitet" class="csl-entry" role="listitem">
+———. 2025b. <span>”Kvalitetsdeklaration – Nationella trygghetsundersökningen (NTU) 2025”</span>. Brottsförebyggande rådet. <a href="https://bra.se/download/18.2ea97252199c925f9182be9/1760088707946/Kvalitetsdeklaration%20NTU%202025.pdf">https://bra.se/download/18.2ea97252199c925f9182be9/1760088707946/Kvalitetsdeklaration%20NTU%202025.pdf</a>.
+</div>
+<div id="ref-msb2025" class="csl-entry" role="listitem">
+Myndigheten för samhällsskydd och beredskap (MSB). 2025. <span>”Verktyg och tjänster”</span>. <a href="https://www.msb.se/sv/">https://www.msb.se/sv/</a>.
+</div>
+<div id="ref-kolada" class="csl-entry" role="listitem">
+Rådet för främjande av kommunala analyser. 2025. <span>”Kolada – Jämför och analysera nyckeltal i kommuner och regioner”</span>. <a href="https://www.kolada.se/">https://www.kolada.se/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+
+
+<div class="contact-widget">
+
+  <input type="checkbox" id="contact-toggle">
+
+
+
+  <label for="contact-toggle" class="contact-button" title="Kontakt">
+
+    💬
+
+  </label>
+
+
+
+  <div class="floating-contact-box">
+
+    <strong>Vid frågor kontakta</strong><br>
+
+    Region Uppsala - Regional Utveckling <br>
+
+    <a href="mailto:regionalutveckling.analys@regionuppsala.se">regionalutveckling.analys@regionuppsala.se</a><br>
+
+  </div>
+
+</div>
+
+
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopierat!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopierat!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

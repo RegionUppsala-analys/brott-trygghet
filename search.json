@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "raddningstjanst.html",
+    "href": "raddningstjanst.html",
+    "title": "Räddningstjänst",
+    "section": "",
+    "text": "Denna rapport belyser olyckor och räddningstjänst i länets kommuner med fokus på utvecklingen över tid och skillnader mellan kommunerna. Analysen omfattar både modellberäknade avvikelser från Myndigheten för samhällsskydd och beredskap (MSB) (2025) samt faktisk statistik över olyckor, bränder, IVPA-uppdrag, responstider och kostnader till följd av olyckor."
+  },
+  {
+    "objectID": "raddningstjanst.html#avvikelse-sjukhusvårdande",
+    "href": "raddningstjanst.html#avvikelse-sjukhusvårdande",
+    "title": "Räddningstjänst",
+    "section": "Avvikelse sjukhusvårdande",
+    "text": "Avvikelse sjukhusvårdande\n\n\n\n\n\n\n\n\nFigur 1: Akademiska\n\n\n\n\n\nDenna indikator visar avvikelsen mellan det modellberäknade värdet och det faktiska antalet personer som sjukhusvårdats till följd av oavsiktliga skador (olyckor). Modellberäkningen baseras på olika strukturella faktorer i kommunen och jämförs med indikatorn som anger antalet personer som vårdats minst 24 timmar i slutenvård.\nUppgifterna kommer från Socialstyrelsens patientregister, som omfattar alla vårdtillfällen där patienten skrivits ut från ett svenskt sjukhus under aktuellt år till följd av yttre orsak (olycksfall). En person kan endast registreras en gång per år. Antalet vårdade har justerats med befolkningsdata från SCB på kommunnivå. För att reducera slumpmässiga variationer används ett treårsmedelvärde (år \\(T-2\\) till \\(T\\)).\n\n\n\n\n\n\n\n\nFigur 2\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nEndast en cell i grafen påvisar ett värde som är fler antal olyckor som renderat i att en person vårdats i minst 24 timmar i slutenvård än förväntat. Nästan alla celler är gröna och påvisar därav att antalet är mycket lägre än förväntat i samtliga kommuner för en stor del av åren."
+  },
+  {
+    "objectID": "raddningstjanst.html#avvikelse-utvecklade-bränder-i-byggnad",
+    "href": "raddningstjanst.html#avvikelse-utvecklade-bränder-i-byggnad",
+    "title": "Räddningstjänst",
+    "section": "Avvikelse utvecklade bränder i byggnad",
+    "text": "Avvikelse utvecklade bränder i byggnad\nDenna indikator visar avvikelsen mellan modellberäknat värde och faktiskt antal utvecklade bränder i byggnader. Modellberäkningen baseras på bebyggelsestruktur och demografiska faktorer, och jämförs med indikatorn som anger antalet utvecklade bränder i byggnad.\nUppgifterna hämtas från Räddningsverkets insatsregister, som bygger på de insatsrapporter räddningstjänsterna upprättar efter genomförda insatser. Registret omfattar samtliga räddningsinsatser vid bränder i byggnader, såväl bostäder som allmänna byggnader och industribyggnader.\nMed utvecklad brand avses fall där det fortfarande brinner vid räddningstjänstens ankomst. Registret inkluderar endast bränder som lett till en faktisk räddningsinsats. Antalet insatser har justerats med SCB:s befolkningsuppgifter för respektive kommun. För denna indikator används ett femårsmedelvärde (år \\(T-4\\) till \\(T\\)).\n\n\n\n\n\n\n\n\nFigur 3\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nHeby och Östhammar är de två kommunerna som inte har en majoritet av år där ett högre antal utvecklade bränder i byggnader än förväntat inträffat under perioden. Från 2015 och framåt så har det varit färre år som avviker ifrån MSBs modellberäknade värde."
+  },
+  {
+    "objectID": "raddningstjanst.html#brandförsvar-och-samverkan-i-räddningstjänst",
+    "href": "raddningstjanst.html#brandförsvar-och-samverkan-i-räddningstjänst",
+    "title": "Räddningstjänst",
+    "section": "Brandförsvar och samverkan i räddningstjänst",
+    "text": "Brandförsvar och samverkan i räddningstjänst\nDetta avsnitt belyser kommunernas insatser inom brandförsvar och räddningstjänst, baserat på data från Rådet för främjande av kommunala analyser (2025) som i sin tur hänvisar till Myndigheten för samhällsskydd och beredskap (MSB) (2025). Uppgifterna kommer från Räddningsverkets insatsregister, som bygger på räddningstjänsternas insatsrapporter efter utryckningar. För att möjliggöra jämförelser mellan kommuner har resultaten justerats utifrån befolkningsuppgifter från SCB.\n\nUtvecklade bränder i byggnad\nStatistiken avser räddningstjänstens insatser vid utvecklade bränder i byggnader, det vill säga tillfällen där det fortfarande brann när räddningstjänsten anlände. Begreppet byggnad omfattar såväl bostäder som offentliga lokaler och industribyggnader. Endast bränder som lett till en faktisk räddningsinsats ingår i registret.\nUppgifterna redovisas som ett femårsmedelvärde (år \\(T-4\\) till \\(T\\)).\n\n\n\n\n\n\n\n\nFigur 4\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nUppsala och Knivsta är de två kommunerna som har det lägsta antalet utvecklade bränder i byggnader per 1000 invånare de senaste åren, högst värden hittas i Tierp och Östhammar för samma år. De högsta värden hittas i Heby och Älvkarleby i början av perioden, där det skedde över 1 utvecklad brand per 1000 invånare i Heby, och som högst nästan 1.5 bränder per 1000 invånare år 2012 i Älvkarleby. De lägsta värdena är i Håbo för 2017 och 2018 på runt 0.25 utvecklade bränder per 1000 invånare.\n\n\nIVPA\nIndikatorn visar antalet insatser där räddningstjänsten larmats till så kallade IVPA-uppdrag (I väntan på ambulans). Dessa uppdrag registreras som ”annat uppdrag” i insatsrapporterna, och omfattningen kan variera mellan kommuner eftersom dokumentationskravet enligt LSO inte är enhetligt.\nEndast de IVPA-insatser som redovisats i insatsrapporten ingår i statistiken.\n\n\n\n\n\n\n\n\nFigur 5\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nAntalet IVPA-insatser per 1000 invånare är som lägst i Uppsala och Enköping, vilket är kommunerna i länet med sjukhus och lasarettet och att ta sig dit själv är då lättare. Flest IVPA-insatser har de senaste åren skett i Heby och Östhammar, men mellan 2015 och 2018 så var Knivsta den kommunen med det hösta antalet. Det ser nästan ut att vara 3 kluster i slutet av perioden, de 2 kommunerna med minsta antalet, 4 kommuner i mitten och de två kommunerna med det högsta antalet.\nSamtliga kommuner har lägre värden för 2024 än 2023."
+  },
+  {
+    "objectID": "raddningstjanst.html#responstider-för-räddningstjänst",
+    "href": "raddningstjanst.html#responstider-för-räddningstjänst",
+    "title": "Räddningstjänst",
+    "section": "Responstider för räddningstjänst",
+    "text": "Responstider för räddningstjänst\nUppgifterna är hämtade från Rådet för främjande av kommunala analyser (2025), som hänvisar till SOS Alarm (2025). Responstiden mäter tiden från det att larmcentralen tar emot ett larm tills räddningstjänsten anländer till skadeplatsen. Endast de insatserna med syfte att rädda liv, egendom eller miljö ingår i data.\nMätperioden omfattar juni \\(T-1\\) till juni \\(T\\), och indikatorn redovisas som medianvärde i minuter för år \\(T\\).\n\n\n\n\n\n\n\n\nFigur 6\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nUnder perioden så har kommunen med den högsta mediantiden varierat mellan åren. För det senaste året är det Tierp, men för de 3 föregående åren så har det varit Älvkarleby, som framför allt 2022 stack ut med en mediantid på över 17 minuter. Uppsala har den kortaste mediantiden på runt 10 minuter för alla år förutom 2020 där Håbo hade lägst. Östhammar hade den högsta responstiden 2010 på över 15 minuter och efter 2016 så har mediantiden sjunkit för att nu vara den fjärde lägsta i länet på runt 12 minuter."
+  },
+  {
+    "objectID": "raddningstjanst.html#kostnader",
+    "href": "raddningstjanst.html#kostnader",
+    "title": "Räddningstjänst",
+    "section": "Kostnader",
+    "text": "Kostnader\nUppgifterna är hämtade från Rådet för främjande av kommunala analyser (2025), som hänvisar till Myndigheten för samhällsskydd och beredskap (MSB) (2025) och Sveriges Kommuner och Regioner (SKR) (2025).\nKostnaderna per olyckstyp har räknats upp till prisnivån för år \\(T\\) med hänsyn till inflationen enligt konsumentprisindex. Endast kostnader som uppstår efter att olyckan inträffat ingår, medan kostnader för beredskap och förebyggande åtgärder exkluderas. Kostnaderna omfattar alla delar av samhället: staten, kommuner, regioner, näringsliv samt drabbade individer och deras anhöriga. Kostnader för beredskap och förebyggande åtgärder ingår således inte i data.\n\n\n\n\n\n\n\n\nFigur 9\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nKostnaden per invånare för olyckor har varierat under perioden, Knivsta hade 2014 det tredje högsta kostnaden i länet på runt 7500 kr/invånare till att 2020 ha det näst lägsta kostnaden på under 5000 kr/invånare. Heby har det högsta kostnaden under hela perioden, vilket är för 2023 och landade på över 9000 kronor per invånare, det näst högsta värdet för samma år var i Tierp på precis över 8000 kr/invånare.\nDet går att dela upp kommunerna i tre tydliga kluster för de senaste åren, där Uppsala är ensamt i ett kluster som kommunen med lägst kostnad, Håbo och Knivsta med kostnader på runt 6000 kronor per invånare. Det tredje klustret innehåller Östhammar, Enköping, Älvkarleby, Tierp och Heby (sticker ut ett av åren), som klustret med högst kostnader för olyckor."
+  },
+  {
+    "objectID": "vald_indikator.html",
+    "href": "vald_indikator.html",
+    "title": "Våldsbrott",
+    "section": "",
+    "text": "Denna rapport behandlar våldsrelaterad brottslighet i länet. Fokus ligger på utvecklingen över tid, skillnader mellan kön och åldersgrupper samt geografiska variationer mellan kommuner och delområden. Analysen omfattar både anmälda våldsbrott och självrapporterad utsatthet, vilket ger en bild av såväl faktisk brottslighet som mörkertal och upplevelser av våld.\nAlla interaktiva grafer kan laddas ned genom att trycka på . Då sparas just den bild som visas, med exempelvis den valda regionen. Genom att dubbelklicka på kommunnamn i grafens legend så zoomas den kommunen in för en mer detaljerad vy (flera kan väljas samtidigt)."
+  },
+  {
+    "objectID": "vald_indikator.html#anmälda-våldsbrott-utomhus-vuxna",
+    "href": "vald_indikator.html#anmälda-våldsbrott-utomhus-vuxna",
+    "title": "Våldsbrott",
+    "section": "Anmälda våldsbrott utomhus vuxna",
+    "text": "Anmälda våldsbrott utomhus vuxna\nDetta delkapitel belyser anmäld misshandel utomhus mot personer 18 år och äldre (3 kap. 5–6 §§ Brottsbalken, BrB). Brottskategorin omfattar misshandel och grov misshandel där brottet skett utomhus och där gärningspersonen är obekant med offret eller har någon annan form av bekantskap än nära relation.\nStatistiken inkluderar våld riktat mot både kvinnor och män. Det bör noteras att Brottsförebyggande rådet (Brå) har identifierat brister i registreringen av relationstyper, vilket innebär att kategorin ”annan sorts relation eller bekantskap” kan vara något överskattad. Detta ska beaktas vid tolkning av resultaten.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nUtvecklingen av antalet anmälda våldsbrott har sjunkit under perioden fram till 2024, där det i Uppsala kommun och län har ökat igen, sett till antal per 100 000 så har Uppsala kommun ett högre antal våldsbrott utomhus bland vuxna än i länet. Några kommuner som har väldigt få anmälningar visar ökande antal anmälningar för vissa år, men det är så få antal anmälningar så det är osäkert att kommentera trenderna."
+  },
+  {
+    "objectID": "vald_indikator.html#personvåld-mot-barn-och-unga",
+    "href": "vald_indikator.html#personvåld-mot-barn-och-unga",
+    "title": "Våldsbrott",
+    "section": "Personvåld mot barn och unga",
+    "text": "Personvåld mot barn och unga\nDetta delkapitel belyser anmäld misshandel mot barn och unga i åldrarna 0–17 år (3 kap. 5–6 §§ Brottsbalken, BrB). Brottskategorin omfattar misshandel och grov misshandel riktad mot flickor och pojkar, både inomhus och utomhus, samt oavsett om gärningspersonen är bekant eller obekant med offret.\nStatistiken är uppdelad efter kön, åldersgrupp och brottsplats, vilket möjliggör en mer detaljerad analys av våldets karaktär.\n\n\n\n\n\n\nViktigt\n\n\n\nIbland kan frågor väcka minnen som påminner om saker du har blivit utsatt för. Då är det viktigt att ta hjälp av någon vuxen som du litar på. Om du vill prata med någon kan du till exempel vända dig till en lärare eller någon organisation där det finns vuxna som är bra på att lyssna. Några sådana organisationer finns nedan:\n\nPolisen har för icke-akuta situationer telefonnumret 114 14 där du kan få rådgivning.\nBrottsofferjouren har en egen väg in för unga personer med kontaktvägar via telefon, mejl och chatt.\nBrottsofferjourens telefonnummer: 116 006\nBrottsofferjourens hemsida: www.brottsofferjouren.se\nMår du dåligt i din relation? Då finns Ungarelationer.se: www.ungarelationer.se\nDet finns även stödlinjer om du har blivit utsatt för våld i en nära relation:\nKvinnofridslinjen: 116 016\nRätt att välja (för dig som blir utsatt av din familj eller släkt): 020-57 70 70\nStödlinjen för män: 020-80 80 80\nStödlinjen för transpersoner 020-55 00 00\nÄven Barnens rätt i samhället (BRIS) kan ge dig stöttning.\nBRIS telefonnummer: 116 111\nBRIS hemsida: www.bris.se\n\n\n\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nAntalet anmälda våldsbrott bland unga och barn är högre bland pojkar per 100 000 än flickor, både inom- och utomhus. Jämfört mot riket så har länet antingen liknande eller färre antal anmält våld mot unga och barn per 100 000."
+  },
+  {
+    "objectID": "vald_indikator.html#våld-i-nära-relation",
+    "href": "vald_indikator.html#våld-i-nära-relation",
+    "title": "Våldsbrott",
+    "section": "Våld i nära relation",
+    "text": "Våld i nära relation\nDetta avsnitt belyser anmälda brott där brottsoffer och gärningsperson är närstående, det vill säga att de har en pågående eller tidigare parrelation alternativt är släkt eller familj. Med nära relation avses alltså både parrelationer och andra familje- eller släktrelationer.\nEn stor del av de handlingar som definieras som våld i nära relation är brottsliga handlingar som exempelvis misshandel, olaga hot och sexuellt ofredande. Det är emellertid viktigt att ha med sig att det vanligast förekommande är psykiskt våld vilket omfattar handlingar som inte alltid är olagliga trots att de orsakar lidande. Det psykiska våldet kan vara svårare att bevisa och färre anmäler den formen av våld.\nBrås kvalitetsgranskningar visar brister i registreringen av relationstyper vid anmäld misshandel. Granskningen visar att förekomsten av våld i parrelation i viss utsträckning kan vara underskattat och våld inom släkt eller familj överskattat. Detta bör tas i beaktande vid analys och jämförelser. För fördjupad information se kvalitetsgranskningsstudie på Brå.\n\n\n\n\n\n\nBrottskategorier som ingår i Våld i nära relation\n\n\n\n\n\n\nFörsök till mord eller dråp (3 kap. 1–2 §§ BrB)\nMisshandel och grov misshandel (3 kap. 5–6 §§ BrB)\nOlaga frihetsberövande (4 kap. 2 § BrB)\nOlaga tvång (4 kap. 4 § BrB)\nGrov fridskränkning (4 kap. 4 a § första stycket BrB)\nGrov kvinnofridskränkning (4 kap. 4 a § andra stycket BrB)\nOlaga förföljelse (4 kap. 4 b § BrB)\nOlaga hot (4 kap. 5 § BrB)\nOlaga integritetsintrång (4 kap. 6 c–d §§ BrB)\nOfredande (4 kap. 7 § BrB)\nVåldtäkt och grov våldtäkt (6 kap. 1 § BrB)\nOaktsam våldtäkt (6 kap. 1 a § BrB)\nSexuellt övergrepp och grovt sexuellt övergrepp (6 kap. 2 § BrB)\nOaktsamt sexuellt övergrepp (6 kap. 3 § BrB)\nSexuellt ofredande (6 kap. 10 § BrB)\n\nExhibitionism (blottning) ingår inte.\n\n\n\n\n\n\n\n\n\nÄr du utsatt för våld i nära relation eller är du orolig för någon i din närhet?\n\n\n\nFöljande är några aktörer som kan ge hjälp och stöd i Uppsala län:\n\nPolis vid icke akuta ärenden: 114 14 (kontorstid)\nUppsala kommun Nexus resurscentrum – för den som är utsatt för hot eller våld av en närstående (tillhandahåller även skyddat boende): 018-727 52 47, 076-101 99 97\nNexus resurscentrum mot hedersrelaterat våld och förtryck: 018-727 52 47, 076-101 99 97\nSocialtjänstens individ- och familjeomsorg: 018-727 52 l30 (barn & ungdom), 018-727 63 00 (vuxen)\nSocialjouren: 018-15 00 00 (kvällar/helger)\nKvinnofridslinjen: 116 016 (öppen varje dag, dygnet runt)\nStödlinjen för transpersoner 020-55 00 00 (öppen varje dag 11–19)\nStödlinjen för män 020-80 80 80 (öppen varje dag 07 – 21:00)\nRätt att välja, för den som är utsatt för hedersrelaterat våld 020-57 70 70 (öppen varje dag 7–21)\n\n\n\n\nKvinnor\nDetta delkapitel belyser anmälda brott mot kvinnor 18 år eller äldre.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nDet syns en tydlig ökning i antalet anmält våld i nära relation bland kvinnor i kommunerna, länet och riket. Den största ökningen har framför allt skett fram till 2020 för att sedan mattas av. De flesta kommunerna och länet ligger en bit under rikets antal per 100 000, men skillnaden minskade år 2024. Att antalet anmälda brott har ökat så snabbt under perioden behöver inte betyda att det sker fler brott nu än tidigare, utan kan också betyda att mörkertalet är lägre, det vill säga att en större andel utsatta för våld i nära relation anmäler.\n\n\nMän\nDetta delkapitel belyser anmälda brott i nära relation mot män 18 år eller äldre.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nDet syns också en tydlig ökning i antal anmälda brott i nära relation mot män med en liknande trend som för kvinnor där det stagnerar något efter 2020. Vid en jämförelse mellan antalet män respektive kvinnor som anmält brott i den aktuella brottskategorin så framgår det att antalet är markant mycket högre bland kvinnor än män."
+  },
+  {
+    "objectID": "vald_indikator.html#våldsbrott",
+    "href": "vald_indikator.html#våldsbrott",
+    "title": "Våldsbrott",
+    "section": "Våldsbrott",
+    "text": "Våldsbrott\nHär visar avvikelsen mellan modellberäknat värde och faktiskt antal anmälda våldsbrott. Brottskategorin våldsbrott omfattar mord, dråp, barnadråp, misshandel (med och utan dödlig utgång), våldtäkt (inklusive grov våldtäkt), grov fridskränkning, grov kvinnofridskränkning, våld mot tjänsteman samt rån (inklusive grovt rån).\nAntalet anmälda brott har normaliserats med befolkningsuppgifter från SCB på kommunnivå. För att jämna ut tillfälliga variationer används ett treårsmedelvärde (år \\(T–2\\) till \\(T\\)).\n\n\n\n\n\n\n\n\nFigur 1\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nSedan 2009 så är Uppsala och Knivsta de enda kommunerna i länet som inte påvisar ett högre antal anmälda våldsbrott som avviker tydligt från MSBs estimeringar. Efter 2015 så har antal brott i större utsträckning överensstämt eller varit färre än vad modellen estimerat."
+  },
+  {
+    "objectID": "vald_indikator.html#utsatthet-för-våld",
+    "href": "vald_indikator.html#utsatthet-för-våld",
+    "title": "Våldsbrott",
+    "section": "Utsatthet för våld",
+    "text": "Utsatthet för våld\nAv de som svara ja på frågan ‘Har du under de senaste 12 månaderna blivit utsatt för fysiskt våld?’ så visas svaren på var våldet skedde i Figur 2.\n\n\n\n\n\n\n\n\nFigur 2\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nDet är väldigt få svarande i länet som angett att de varit utsatt för våld, men av de svarande så syns det en skillnad mellan könen, där män har större andel som blivit utanför hemmet, i arbete/skola eller offentliga platser och kvinnor i hemmet, bostäder eller någon annanstans."
+  },
+  {
+    "objectID": "vald_indikator.html#utsatthet-för-brott",
+    "href": "vald_indikator.html#utsatthet-för-brott",
+    "title": "Våldsbrott",
+    "section": "Utsatthet för brott",
+    "text": "Utsatthet för brott\nI NTU efterfrågas utsatthet för som drabbar enskilda personer som gäller misshandel och sexualbrott.\n\n\n\n\n\n\n\n\nFigur 3\n\n\n\n\nDet syns en minskade andel som självrapporterat utsatthet för misshandel för samtliga kommuner utom Knivsta, som saknar data för flera av åren. Flera av länets kommuner har lägre andel än riket för 2023.\nGällande frågan om utsatthet för sexualbrott så syns det också en minskande trend för andelen som uppgett utsatthet. Uppsala är den enda kommunen i länet som visar en högre andel än rikssnittet."
+  },
+  {
+    "objectID": "skade_stold_trafik.html",
+    "href": "skade_stold_trafik.html",
+    "title": "Övriga brott",
+    "section": "",
+    "text": "Denna rapport ger en samlad bild av brottsligheten i kommunerna med fokus på skadegörelse-, stöld- och tillgreppsbrott, bilrelaterade brott, bostadsinbrott, trafikbrott och narkotikabrott. Syftet är att beskriva utvecklingen över tid, visa skillnader mellan kommuner samt sätta resultaten i relation till länet och riket, både i absoluta tal och per 100 000 invånare.\nAlla interaktiva grafer kan laddas ned genom att trycka på . Då sparas just den bild som visas, med exempelvis den valda regionen. Genom att dubbelklicka på kommunnamn i grafens legend så zoomas den kommunen in för en mer detaljerad vy (flera kan väljas samtidigt)."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-skadegörelsebrott",
+    "href": "skade_stold_trafik.html#anmälda-skadegörelsebrott",
+    "title": "Övriga brott",
+    "section": "Anmälda skadegörelsebrott",
+    "text": "Anmälda skadegörelsebrott\nI detta avsnitt redovisas anmälda skadegörelsebrott enligt brottsbalkens kapitel 12. Skadegörelse omfattar bland annat skador genom brand, klotter, skador på motorfordon samt skador riktade mot offentlig egendom.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nSett för alla kommuner och år i perioden så är det endast Håbo och år 2019 som har ett högre antal anmälda skadegörelsebrott per 100 000 än riket. Resterande år och kommuner har värden långt under rikssnittet. Länet visar en minskande trend då Uppsala kommun också har en minskande trend och en stor del av länets befolkning, men en minskande trend syns ej för alla kommuner i länet."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-personrån-mot-unga",
+    "href": "skade_stold_trafik.html#anmälda-personrån-mot-unga",
+    "title": "Övriga brott",
+    "section": "Anmälda personrån mot unga",
+    "text": "Anmälda personrån mot unga\nDetta delkapitel belyser anmälda personrån mot barn och unga under 18 år (8 kap. 5–6 §§ BrB). Brottskategorin omfattar rån där målsäganden är minderårig, oavsett om gärningen skett i offentlig miljö eller annan plats.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nI figurerna ovan ser vi att antalet personrån mot unga sjunker i länet och riket i liknande takt efter 2019 som påvisar de högsta siffrorna sett till antal per 100 000. Den minskande trenden syns i Håbo, Knivsta och Uppsala. Enköping har ett ökande antal för 2021, 22 och 23, resterande kommuner har väldigt få antal anmälningar."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-stöldbrott",
+    "href": "skade_stold_trafik.html#anmälda-stöldbrott",
+    "title": "Övriga brott",
+    "section": "Anmälda stöldbrott",
+    "text": "Anmälda stöldbrott\nDetta delkapitel belyser anmälda stöldbrott enligt 8 kap. Brottsbalken (BrB). Brottskategorin omfattar stöld och grov stöld, men exkluderar rån mot privatperson och butiksrån.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nAntal anmälda stöldbrott är lägre än rikssnittet i alla kommuner i länet utom Uppsala kommun. Det syns en minskande trend för alla kommuner i länet och i riket."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-bilbrott",
+    "href": "skade_stold_trafik.html#anmälda-bilbrott",
+    "title": "Övriga brott",
+    "section": "Anmälda bilbrott",
+    "text": "Anmälda bilbrott\nDetta delkapitel belyser anmälda bilrelaterade brott enligt 8 kap. Brottsbalken (BrB), inklusive tillgrepp av motordrivet fortskaffningsmedel (8 kap. 7 § BrB) samt stöld ur och från motorfordon.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nLänets kommuner ligger nära länssnittet och under rikssnittet när det gäller anmälda bilbrott. I Enköping så var antalet per 100 000 mycket högre än i länet, men har kraftigt minskat de senaste åren. I Östhammar så är alla år utom 2023 en bra bit under länssnittet sett till antal anmälda bilbrott per 100 000."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-bostadsinbrott",
+    "href": "skade_stold_trafik.html#anmälda-bostadsinbrott",
+    "title": "Övriga brott",
+    "section": "Anmälda bostadsinbrott",
+    "text": "Anmälda bostadsinbrott\nDetta delkapitel belyser anmälda bostadsinbrott enligt 8 kap. Brottsbalken (BrB). Brottskategorin omfattar inbrottsstöld i bostäder såsom lägenheter, villor och fritidshus, samt inbrott i källare och vindsutrymmen som hör till bostad.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nÅr 2020 så ökade antalet anmälda bostadsinbrott i Uppsala, men har sedan dess återgått till liknande nivåer som innan. Uppsala har ett högre antal anmälda bostadsinbrott per 100 000 än både länet och riket. Flera av länets resterande kommuner har lägre värden än länet och riket sett till bostadsinbrott per 100 000."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-trafikbrott",
+    "href": "skade_stold_trafik.html#anmälda-trafikbrott",
+    "title": "Övriga brott",
+    "section": "Anmälda trafikbrott",
+    "text": "Anmälda trafikbrott\nDetta delkapitel belyser anmälda trafikbrott enligt trafikbrottslagen (1951:649). Brottskategorin omfattar bland annat vårdslöshet i trafik, rattfylleri och andra brott mot trafiklagstiftningen.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nOvan så visas utvecklingen av anmälda trafikbrott, där länet har ett liknande antal per 100 000 som riket och det syns en sjunkande trend i både riket och länet. Enköping, Håbo, Knivsta och Tierp har alla mycket högre antal per 100 000 än länet och riket, medan Uppsala kommun har mycket lägre antal per 100 000 än både länet och riket."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#anmälda-narkotikabrott",
+    "href": "skade_stold_trafik.html#anmälda-narkotikabrott",
+    "title": "Övriga brott",
+    "section": "Anmälda narkotikabrott",
+    "text": "Anmälda narkotikabrott\nDetta delkapitel belyser anmälda narkotikabrott enligt narkotikastrafflagen (1968:64). Brottskategorin omfattar bland annat bruk, innehav, överlåtelse och tillverkning av narkotika samt försök och förberedelse till narkotikabrott.\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nAntalet anmälda narkotikabrott har ökat i Enköping, Håbo, Knivsta, Tierp och Uppsala kommun under perioden. Enköping och Håbo har mycket antal per 100 000 än både länet och riket, medan Heby och Östhammar ligger långt under länets och rikets nivåer."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#stöld-och-tillgreppsbrott",
+    "href": "skade_stold_trafik.html#stöld-och-tillgreppsbrott",
+    "title": "Övriga brott",
+    "section": "Stöld och tillgreppsbrott",
+    "text": "Stöld och tillgreppsbrott\nDetta avsnitt visar avvikelsen mellan modellberäknat värde och faktiskt antal anmälda stöld- och tillgreppsbrott. Brottskategorin omfattar stöld, tillgrepp av fordon, stöld ur och från fordon, inbrottsstöld, stöld och snatteri, stöld av vapen, ammunition och sprängämnen, övriga stöldbrott enligt 8 kap. brottsbalken samt rån (inklusive grovt rån). Häleri är exkluderat.\nÄven här har antalet anmälda brott justerats med SCB:s befolkningsdata för respektive kommun, och ett treårsmedelvärde (år \\(T–2\\) till \\(T\\)) används.\n\n\n\n\n\n\n\n\nFigur 1\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nEnköping och Håbo är de enda kommunerna som haft fler anmälda stöld- och tillgreppsbrott än förväntat, Östhammar har haft ett lägre antal anmälningar för samtliga år under perioden förutom 2024."
+  },
+  {
+    "objectID": "skade_stold_trafik.html#problem-i-bostadsområdet",
+    "href": "skade_stold_trafik.html#problem-i-bostadsområdet",
+    "title": "Övriga brott",
+    "section": "Problem i bostadsområdet",
+    "text": "Problem i bostadsområdet\nDetta avsnitt visar hur invånarna upplever olika typer av problem i sitt bostadsområde. Resultaten speglar både den faktiska förekomsten och invånarnas uppfattning om problemen i sitt närområde, några frågor efterfrågar även utsatthet för brott som drabbar hela hushåll (bostadsinbrott och stöld ur eller från fordon och cykelstölder).\n\n\n\n\n\n\n\n\nFigur 2\n\n\n\n\nDet syns en minskande trend i länet för andelen som svarat att de i stor utsträckning upplever problem med skadegörelse och klotter i det egna bostadsområdet.\nAndelen som svarat på att de i stor utsträcknign upplever problem med öppen narkotikahandel är längre i länets alla kommuner än i riket. När det gäller frågan angående gängkriminalitet så är andelen som upplever problem väldigt låg i Östhammar, Älvkarleby, Heby, Enköping och Tierp, medan Håbo, Uppsala och Knivsta ligger nära eller över rikssnittet.\nDen fråga där länet sticker ut mest är angående cykelstölder, detta då Uppsala kommun har en mycket större andel hushåll som angett sig vara utsatta än övriga länet och riket."
+  },
+  {
+    "objectID": "trygghet.html",
+    "href": "trygghet.html",
+    "title": "Trygghet",
+    "section": "",
+    "text": "Denna rapport belyser invånarnas upplevda trygghet och sociala situation, baserat på resultat från enkätundersökningar. Till skillnad från registerbaserad statistik om exempelvis anmälda brott fångar dessa indikatorer människors egna erfarenheter, oro och upplevelser i vardagen. De ger därmed en viktig kompletterande bild av trygghetsläget i kommunerna.\nIndikatorerna omfattar bland annat om personer avstått från att gå ut ensamma, upplevelser av ensamhet och social isolering, nedlåtande behandling, trygghet i bostadsområdet samt oro för att utsättas för brott eller förlora sitt arbete. Tillsammans speglar de både den sociala och den fysiska tryggheten, liksom den tillit människor känner till sin omgivning.\nAlla interaktiva grafer kan laddas ned genom att trycka på . Då sparas just den bild som visas, med exempelvis den valda regionen. Genom att dubbelklicka på kommunnamn i grafens legend så zoomas den kommunen in för en mer detaljerad vy (flera kan väljas samtidigt)."
+  },
+  {
+    "objectID": "trygghet.html#avstått-från-att-gå-ut-ensam",
+    "href": "trygghet.html#avstått-från-att-gå-ut-ensam",
+    "title": "Trygghet",
+    "section": "Avstått från att gå ut ensam",
+    "text": "Avstått från att gå ut ensam\n\nEnköpingHebyHåboKnivstaTierpUppsalaÄlvkarlebyÖsthammar\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nI alla kommuner syns det en tydlig trend att kvinnor i större utsträckning har svarat att de avstått från att gå ut ensam av rädsla för att bli överfallen, rånad eller på annat sätt ofredad de senaste åren än tidigare. I Håbo så har över 40 % av kvinnorna svarat ‘Ja’ de två senaste åren enkäten har skickats ut."
+  },
+  {
+    "objectID": "trygghet.html#ensamhet-och-isolering",
+    "href": "trygghet.html#ensamhet-och-isolering",
+    "title": "Trygghet",
+    "section": "Ensamhet och isolering",
+    "text": "Ensamhet och isolering\n\n\n\n\n\n\n\n\nFigur 1\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nKvinnor har i samtliga kommuner en högre andel som svara att de har lätta eller svåra besvär med ensamhet och isolering än män."
+  },
+  {
+    "objectID": "trygghet.html#nedlåtande-behandling",
+    "href": "trygghet.html#nedlåtande-behandling",
+    "title": "Trygghet",
+    "section": "Nedlåtande behandling",
+    "text": "Nedlåtande behandling\n\n\n\n\n\n\n\n\nFigur 2\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nI Figur 2 syns det kvinnor är det könet som är mest utsatt när det kommer till upplevd nedlåtande behandling de senaste 3 månaderna, över 25 % av de svarande kvinnorna har i samtliga kommuner svarat ‘Ja, någon gång’ eller ‘Ja, flera gånger’."
+  },
+  {
+    "objectID": "trygghet.html#trygghet-i-bostadsområdet",
+    "href": "trygghet.html#trygghet-i-bostadsområdet",
+    "title": "Trygghet",
+    "section": "Trygghet i bostadsområdet",
+    "text": "Trygghet i bostadsområdet\n\n\n\n\n\n\n\n\nFigur 3\n\n\n\n\n\n\n  \n    Ladda ner\n    \n      Som SVG\n      Som PNG\n    \n  \n\nDet är en väldigt låg andel som svarat ‘Stämmer inte särskilt väl’ eller ‘Stämmer inte alls’ på om man kan känna sig säker och trygg för att inte bli angripen eller utsatt för hot i området de bor i. Svaret ‘Stämmer mycket väl’ har en högre andel för män än kvinnor i samtliga kommuner, men av ‘Stämmer inte särskilt väl’ eller ‘Stämmer inte alls’ skiljer det sig mellan kommunerna."
+  },
+  {
+    "objectID": "trygghet.html#orolig-för-att-förlora-arbete",
+    "href": "trygghet.html#orolig-för-att-förlora-arbete",
+    "title": "Trygghet",
+    "section": "Orolig för att förlora arbete",
+    "text": "Orolig för att förlora arbete\n\nSvensk bakgrundUtländsk bakgrund\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nSvarande med utländsk bakgrund är i större utsträckning oroliga att förlora sitt arbete inom det närmaste året."
+  },
+  {
+    "objectID": "trygghet.html#oväntad-utgift",
+    "href": "trygghet.html#oväntad-utgift",
+    "title": "Trygghet",
+    "section": "Oväntad utgift",
+    "text": "Oväntad utgift\n\nSvensk bakgrundUtländsk bakgrund\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\n\n\nLadda ner\n\nSom SVGSom PNG\n\n\n\n\n\n\nSvarande med utländsk bakgrund svarade nej större utsträckning på om de inom en månad skulle klara av att betala en oväntad utgift på 13 000 kronor utan att låna eller be om hjälp."
+  },
+  {
+    "objectID": "trygghet.html#otrygghet-och-oro-för-brott",
+    "href": "trygghet.html#otrygghet-och-oro-för-brott",
+    "title": "Trygghet",
+    "section": "Otrygghet och oro för brott",
+    "text": "Otrygghet och oro för brott\nHär presenteras utvecklingen av otrygghet och oro för brott. Diagrammen visar förändringen över tid (2017–2024). Frågorna om oro för att utsättas för brott avser de senaste tolv månaderna före svarstillfället, medan övriga frågor speglar respondenternas upplevelse vid tiden för undersökningen.\nKnivsta saknar data för vissa år, detta skulle kunna bero på att det är för få svarande och att data därav röjs för att inte enskilda individer ska kunna spåras.\n\n\n\n\n\n\n\n\nFigur 4\n\n\n\n\nI Figur 4 så undersöks trenden för respondenternas svar som gäller oro och det syns en skillnad mellan kommunerna, där andelen som oroar sig ganska/mycket i flera frågor är högst i Håbo och lägst i Östhammar. För flera frågor, som tex Oro for sexualbrott så ökade andelen som oroar sig ganska/mycket ofta fram till mitten av intervallet för att sedan sjunka igen, detta mönster syns för flera kommuner. Den frågan som visar den tydligaste trenden på en minskande andel är Oro för att utsättas för bostadsinbrott, där alla kommuner utom Heby och Uppsala visar en nedgående trend."
+  }
+]
